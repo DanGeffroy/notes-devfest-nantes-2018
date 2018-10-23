@@ -13,7 +13,10 @@ Présentation des dernières features de angular 8 comme par exemple le nouveau 
   - **Schematics** est une extension du CLI, il permet de réaliser des template personnalisé et réutilisable.
   - **Material CDK**: le component dev kit de material est disponible et permet d'utiliser la partie contrôleur de AngularMaterial sans la couche graphique
   - **IVY** est le nouveau moteur de rendu d'Angular il permet un debugging plus simple, de plus petits scripts une fois compilé, et une compilation plus rapide. Ivy est rétro compatible avec l'ancien moteur  
-![IVY size](/static/IVY_size.png)
+<p align="center">
+  <img height="250" src="/static/IVY_size.png">
+</p>
+
 ### :cloud: Les nouveautés "serverless" de Google Cloud
 Découverte des nouveautés "serverless" de Google. L'App Engine et Cloud Functions, ou comment créer une application en se focalisant sur son code et de laisser la tache de scaling à Google.  
 
@@ -25,7 +28,10 @@ Nouveautés des cloud fonction : python 3.7, node 8, variables d'environnement, 
 Possibilité d'utiliser des containers pour exécuter des programmes qui ne sont pas disponibles au runtime sur le Google cloud par exemple Rudy ou blender(logiciel de rendu 3D).   
 
 Cette présentation était basée sur une application nommée [*Sharing pictures*](https://pic-a-daily.appspot.com/) dont voici l'architecture  
-![demo app serverless](/static/demo_app_serverless.png)
+<p align="center">
+  <img height="350" src="/static/demo_app_serverless.png">
+</p>
+
 ### :mag: Deliver search-friendly JavaScript-powered websites
 Problématique, comment référencer son application alors que 90% de son contenu est chargé par du JS.
 
@@ -50,7 +56,9 @@ Pourquoi faire du Machine learning dans son navigateur ?
   - Pas d'installation requise
  
  Voici les performances de tensorflow.js, tensorflow.js utilise le GPU (WebGL) pour faire ces calculs  
- **Photo of tensorflow.js perfs**
+<p align="center">
+  <img height="250" src="/static/perfs_tensor_flow.js.png">
+</p>
 
 ## Jour 2
 ### :deciduous_tree: Git Dammit!
