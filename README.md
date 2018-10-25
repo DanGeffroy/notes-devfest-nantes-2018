@@ -8,7 +8,7 @@ Ce projet contient les notes que j'ai pris durant le DevFest 2018 à Nantes.
 ## Jour 1
 
 ### :a: Ready for Angular version 8?
-Présentation des dernières features de angular 8 comme par exemple le nouveau system de build, le Material CDK de angular Material,et le nouveau moteur de rendu.  
+Présentation des dernières features de angular 8 comme par exemple le nouveau système de build, le Material CDK de angular Material,et le nouveau moteur de rendu.  
   - **BAZEL** est le nouveau système de build d'angular. Il est plus rapide, scalable et polyglotte (mutli-langage).
   - **Schematics** est une extension du CLI, il permet de réaliser des template personnalisé et réutilisable.
   - **Material CDK**: le component dev kit de material est disponible et permet d'utiliser la partie contrôleur de AngularMaterial sans la couche graphique
@@ -18,14 +18,21 @@ Présentation des dernières features de angular 8 comme par exemple le nouveau 
 </p>
 
 ### :cloud: Les nouveautés "serverless" de Google Cloud
-Découverte des nouveautés "serverless" de Google. L'App Engine et Cloud Functions, ou comment créer une application en se focalisant sur son code et de laisser la tache de scaling à Google.  
+Découverte des nouveautés "serverless" de Google. L'App Engine et Cloud Functions, ou comment créer une application en se focalisant sur son code et de laisser la tâche de scaling à Google.  
 
 Le paiement se base sur la consommation et n'a donc pas de prix fixe.  
 
-Nouveautés de l'app engine runtime : node 8, python 3.7, PHP 7.2, go 1.11, Java 8.Nouveautée des cloud fonction : python 3.7, node 8, variables d'environnement, security contrôle : VPC, IAM, cloud SQL direct connect, scaling controls  
-Possibilité d'utiliser de n'importe quel framework/librairie.  
-Nouveautés des cloud fonction : python 3.7, node 8, variables d'environnement, security contrôle : VPC, IAM, cloud SQL direct connect, scaling controls  
-Possibilité d'utiliser des containers pour exécuter des programmes qui ne sont pas disponibles au runtime sur le Google cloud par exemple Rudy ou blender(logiciel de rendu 3D).   
+Nouveautés de l'**app engine** : 
+  - runtime : node 8, python 3.7, PHP 7.2, go 1.11, Java 8.  
+  
+Nouveautée des **cloud fonction** : 
+  - runtime : python 3.7, node 8
+  - variables d'environnement
+  - security contrôle : VPC, IAM
+  - cloud SQL direct connect
+  - scaling controls  
+  - Possibilité d'utiliser de n'importe quel framework/librairie.   
+  - Possibilité d'utiliser des containers pour exécuter des programmes qui ne sont pas disponibles au runtime sur le Google cloud par exemple Rudy ou blender(logiciel de rendu 3D).   
 
 Cette présentation était basée sur une application nommée [*Sharing pictures*](https://pic-a-daily.appspot.com/) dont voici l'architecture  
 <p align="center">
@@ -82,7 +89,7 @@ Quelque commandes en vrac :
   ```git reset HEAD~ --soft``` : On garde les modifs, indexées  
   ```git reset HEAD~ --mixed``` : On garde toujours les modifs mais non indexées  
   ```git reset HEAD~ --hard``` : On supprime toutes les modifs  
-  - Revenir sur la branche precendante  
+  - Revenir sur la branche précédente  
   ```git checkout -``` : Comme "cd -" en shell  
 
 [Lien de la présentation](https://mghignet.github.io/git-dammit-talk/ )
@@ -96,7 +103,7 @@ Pourquoi gitlab à choisi vueJS?
   - c'est un framework *progressif*  
   - plus petit et plus rapide  
   - Facile à apprendre  
-  - Bon éco-system et une bonne communauté  
+  - Bon écosystème et une bonne communauté  
   - Open Source  
 Les développeurs de chez gitlab font cohabiter leur code legacy (jquerry/JS pure) avec le nouveau code de vueJS.
 ### :building_construction: Vanilla JS 2018
@@ -105,6 +112,8 @@ Présentation du projet 'bac à sable' Vanilla JS 2018, un projet devant répond
   - un maximum de nouvelles normes  
   - minimum 2 navigateurs peuvent supporter le projet  
   
+Vanilla JS 2018 est un clone de 2048 : [lien du répo github](https://github.com/Swiip/vanilla-modern-js)
+  
  
 ### :alien: Détectez et trackez les aliens qui se cachent dans vos dépendances
 44% des applis contiennent des vulnérabilités, pas par leur code mais dans les librairies open-source qu'elles utilisent.  
@@ -112,4 +121,4 @@ démo sur comment créer un pipeline de Continuous Security dans Jenkins au moye
 
 **Démo** : Découverte d'une faille dans Spring Data REST permettant de créer un explorateur de fichiers se trouvant sur le serveur par le biais de son navigateur.  
 
-Utilisation de Jenkins avec le plugin OWASP DependencyCheck pour analyser les failles de sécurité dans les dépendances du projet et corrections de la faille. Les rapports peuvent etre envoyé dans slack/teams ou visible dans OWASP DependencyTrack.
+Utilisation de Jenkins avec le plugin OWASP DependencyCheck pour analyser les failles de sécurité dans les dépendances du projet et corrections de la faille. Les rapports peuvent être envoyé dans slack/teams ou visible dans OWASP DependencyTrack.
